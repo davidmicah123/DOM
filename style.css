@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 50vw;
+    border-radius: 0.5em;
+    margin-top: 10vw;
+    margin-left: 23vw;
+    padding: 2vh;
+    box-shadow: 3px 3px 5px black;
+    background-color: rgba(0, 0, 0, 0.116);
+}
+header{
+    text-align: center;
+    background-color: #bbb;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+.note-list{
+    margin-left: 2vw;
+}
+.note-list p{
+    text-align: start;
+    padding-left: 1vw;
+}
+.note-list li{
+    list-style: none;
+}
+.edit-note{
+    border-top: 0;
+    width: 45vw;
+}
+
+#add-notes{
+    text-align: center;
+}
