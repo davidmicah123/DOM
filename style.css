@@ -5,17 +5,22 @@
 .wrapper{
     width: 50vw;
     border-radius: 0.5em;
-    margin-top: 10vw;
+    margin-top: 5vw;
     margin-left: 23vw;
     padding: 2vh;
     box-shadow: 3px 3px 5px black;
     background-color: rgba(0, 0, 0, 0.116);
+    height: 65vh;
 }
 header{
     text-align: center;
     background-color: #bbb;
     padding-top: 3vh;
     padding-bottom: 3vh;
+}
+#search-note input{
+    padding: 1vh;
+    margin-top: 2vh;
 }
 .note-list{
     margin-left: 2vw;
@@ -30,8 +35,45 @@ header{
 .edit-note{
     border-top: 0;
     width: 45vw;
+    height: 4vh;
 }
 
 #add-notes{
     text-align: center;
 }
+
+
+#list li{
+    margin-top: 3vh;
+}
+
+
+#hide-list{
+    margin-top: 4vh;
+    margin-left: 2vw;
+}
+
+
+#add-notes{
+    margin-top: 3vh;
+}
+#add-input{
+    padding: 1vh;
+    height: 2vh;
+}
+#add-btn{
+    padding: 1vh;
+    height: 5vh;
+}
+
+
+.icons{
+    float: right;
+    margin-right: 4vw;
+}
+
+
+#hide{
+    display: none;
+}
+

@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/scss/_icons.scss">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.min.css">
 </head>
 <body>
     <div class="wrapper">
         <header>
-            <h2>Note Manager</h2>
+            <h2 class="top">Note Manager</h2>
             <form id="search-note">
                 <input type="text" placeholder="search note...">
             </form>
@@ -18,15 +20,18 @@
         <div class="note-list">
             <ul id="list">
                 <li>
-                    <p>First Note</p>
+                    First Note
+                    <span class="icons"> <i class="fa fas fa-lock"></i> <i class="fa fa-times" ></i></span>
                     <input type="text" class="edit-note">
                 </li>
                 <li>
-                    <p>Second Note</p>
+                    Second Note
+                    <span class="icons"> <i class="fa fas fa-lock"></i> <i class="fa fa-times" ></i></span>
                     <input type="text" class="edit-note">
                 </li>
                 <li>
-                    <p>Third Note</p>
+                    Third Note
+                    <span class="icons"> <i class=" fa fas fa-lock"></i> <i class="fa fa-times" ></i></span>
                     <input type="text" class="edit-note">
                 </li>
             </ul>
@@ -42,5 +47,7 @@
             </form>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
