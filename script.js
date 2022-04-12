@@ -10,4 +10,15 @@ var icons = document.getElementsByClassName('fa');
 // console.log(iconArr);
 // console.log(icons);
 
-// iconArr.push("helo");
+// iconArr.push("helo");
+// // console.log(iconArr)
+
+// Array.from(icons).forEach(function(icon){
+//     console.log(icon)
+// });
+
+
+
+let lis = document.getElementsByTagName('li');
+
+console.log(lis)
