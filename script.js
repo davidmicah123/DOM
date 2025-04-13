@@ -21,4 +21,12 @@ var icons = document.getElementsByClassName('fa');
 
 let lis = document.getElementsByTagName('li');
 
-console.log(lis)
+console.log(lis);
+
+let divs =  document.querySelectorAll("div, li, #hide-list ");
+
+console.log(divs);
+
+// divs.forEach(function(div){
+//     console.log(div);
+// });
